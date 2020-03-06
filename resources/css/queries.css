@@ -1,0 +1,116 @@
+/*big tablets to 1200px*/
+@media only screen and (max-width:1200px){
+    .hero-text-box{
+        width: 100%;
+        padding:0 2%;
+    }
+    .row{padding:0 2%;}
+}
+/*small tablet to big tablet*/
+@media only screen and (max-width:1023px){
+    body{font-size:18px; }
+    .logo{height:70px;}
+    section{padding:60px 0;}
+    .long-copy{
+        width:80%;
+        margin-left:10%;
+        margin-right:10%; 
+    }
+    .works-step:last-of-type,
+    .works-step{
+        margin-bottom:40px;
+    }
+    .steps-box:first-child,
+    .steps-box:last-child{
+        margin-top:30px;
+    }
+    .app-screen{
+        width:50%;
+        height:auto;
+    }
+    
+    .icon-cities{ margin-right:15px;}
+    .city-feature{font-size:16px;}
+    .per-month{font-size:250%;}
+    .plan-box{
+        width:100%;
+        margin-left:0%;
+    }
+    .contact-form{width:80%;}
+    .nav-links li{
+        margin-right:10px;
+    }
+}
+/*small phones to small tablets*/
+@media only screen and (max-width:767px){
+    .col{
+        width:100%;
+        margin: 0 0 4% 0;
+    }
+    .main-nav{
+        display:none;
+    }
+    .mobile-nav-icon{
+        display: block;
+    }
+    .js-nav-icon{
+        margin-top:10px;
+    }
+    .main-nav {
+        float:left;
+        margin-top:25px;
+        margin-left:25px;
+    }
+    .main-nav li{
+        display: block;
+    }
+    .main-nav li a:link,
+    .main-nav li a:visited{
+        display: block;
+        border:0;
+        margin:5px 0;
+    }
+
+    .sticky-nav .main-nav{
+        margin-top:0px;
+    }
+    
+    .sticky-nav .main-nav li a:link,
+    .sticky-nav .main-nav li a:visited{
+        color:black;
+        padding:10px 0px;
+        
+    }
+    .sticky-nav .mobile-nav-icon i{
+        color:black;
+    }
+
+
+
+    .steps-box:first-child{
+        text-align:center;
+    }
+    body{font-size:16px;}
+    section{padding:30px 0;}
+    .row,
+    .hero-text-box{
+        padding:0 4%;
+    }
+    blockquote{
+        margin-bottom:20px;
+    }
+    cite{margin-top:10px;}
+    .long-copy{
+        width:100%;
+        margin:0%;
+    }
+    h1{font-size:180%;}
+    h2{font-size:150%;}
+ 
+}
+/*for extra small phones;ranging from 0 to 480px*/
+@media only screen and (max-width:480px){
+    .contact-form{width:100%}
+    section{padding:20px 0;}
+    
+}
